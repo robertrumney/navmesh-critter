@@ -19,6 +19,7 @@ public class Animal : MonoBehaviour
     private bool scared;
     private float timer;
     private bool dead = false;
+    
 
     private void OnEnable()
     {
@@ -54,19 +55,6 @@ public class Animal : MonoBehaviour
 
     private void ApplyDamage()
     {
-        if (Car.instance)
-        {
-            if (Car.instance.inCar)
-            {
-                float distance = Vector3.Distance(transform.position, Game.instance.player.transform.position);
-
-                if (distance > 5)
-                {
-                    return;
-                }
-            }
-        }
-
         if (!dead) 
         {
             Die();
