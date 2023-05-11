@@ -90,8 +90,6 @@ public class Animal : MonoBehaviour
 
     private void Die()
     {
-        GameProgress.instance.HuntGoat();
-
         Rigidbody[] rigids = GetComponentsInChildren<Rigidbody>();
 
         float forceMagnitude = 1;
