@@ -33,7 +33,7 @@ The Animal script is a component written in C# for the Unity game engine. It con
 
 ## Additional Notes
 
-- This script assumes the presence of other components and scripts referenced but not provided in the code, such as `Car`, `Game`, `GameProgress`, and `ImproveRagdoll`. Make sure to implement or replace these components as needed to integrate the Animal script into your game.
+- This script assumes the presence of other components and scripts referenced but not provided in the code such as `ImproveRagdoll` [Located in Tools folder]. Make sure to include this script in your project as well.
 
 ## License
 
